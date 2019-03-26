@@ -1,0 +1,223 @@
+/** rounded corners **/
+body{
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666666;
+	line-height:13px;
+}
+
+.table {
+	color:#333333;
+	font-size:11px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.table a:link {
+	color: #006AD5;
+	font-size:11px;
+	text-decoration: none;
+}
+.table a:visited {
+	color: #006AD5;
+	font-size:11px;
+	text-decoration: none;
+}
+.table a:hover {
+	color: #FF9900;
+	font-size:11px;
+	text-decoration: none;
+}
+.noidung{
+	font-size:11px;
+	font-weight:normal;
+	color:#333333;
+	text-decoration:none;
+	padding:5px;
+	border:1px solid #ccc;
+}
+.login{
+	font-size:11px;
+	color:#444444;
+	font-weight:bold;	
+	text-decoration:none;
+}
+.login a:link{
+	font-size:9pt;
+	color:#008000;
+	font-weight:normal;	
+	text-decoration:none;
+}
+.login a:visited{
+	font-size:9pt;
+	color:#008000;
+	font-weight:normal;	
+	text-decoration:none;
+}
+.login a:hover{
+	font-size:9pt;
+	color: #FF9900;
+	font-weight:normal;	
+	text-decoration:none;
+}
+.submit{
+	color:#FFFFFF;
+	border-width:0;
+	height:22px;
+	line-height:22px;
+	text-decoration:none;
+	text-align:center;
+	background-color:#008000;
+	font-weight:bold;
+	font-size:11px;
+	cursor:pointer;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;
+}
+
+.submit:hover{
+	color:#FFFFFF;
+	border-width:0;
+	height:22px;
+	line-height:22px;
+	text-decoration:none;
+	text-align:center;
+	background-color:#bb0000;
+	font-weight:bold;
+	font-size:11px;
+	cursor:pointer;
+	-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;
+}
+
+.dangnhap {
+	padding: 4px;
+	color:#FF0000;
+	font-weight: bold;
+}
+
+div#toolbar-box {
+  background: #f7f7f7;  
+}
+
+.label {
+	display: block;
+	float: left;
+	width: 120px;
+	text-align: right;
+	padding: 4px;
+	color: #666;
+	font-weight: bold;
+}
+
+div#element-box {
+  background: #fff;  
+}
+
+div#element-box div.section-box div.m {
+	background: #fbfbfb;
+
+}
+
+div.t, div.b {
+  height: 6px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+div.m {
+  border: 1px solid #ccc;
+  /*border-right: 1px solid #ccc;*/
+  padding: 0 8px;
+  font-size:12px;
+  color:#008000;
+}
+
+div#toolbar-box div.m {
+  padding: 0;
+}
+
+div#element-box div.m {
+  padding: 5px 10px;
+}
+
+div#submenu-box div.t {
+  background: url(../images/j_border.png) 0 0 repeat-x;
+}
+
+div#submenu-box div.t div.t {
+   background: url(../images/j_crn_tr_dark.png) 100% 0 no-repeat;
+}
+
+div#submenu-box div.t div.t div.t {
+   background: url(../images/j_crn_tl_dark.png) 0 0 no-repeat;
+}
+
+div#submenu-box div.b {
+  background: url(../images/j_border.png) 0 100% repeat-x;
+}
+
+div#submenu-box div.b div.b {
+   background: url(../images/j_crn_br_dark.png) 100% 0 no-repeat;
+}
+
+div#submenu-box div.b div.b div.b {
+   background: url(../images/j_crn_bl_dark.png) 0 0 no-repeat;
+}
+
+div#toolbar-box,
+div#element-box div.section-box {
+  background: #fbfbfb;  
+}
+
+div#toolbar-box div.t,
+div#element-box div.section-box div.t {
+  background: url(../images/j_border.png) 0 0 repeat-x;
+}
+
+div#toolbar-box div.t div.t,
+div#element-box div.section-box div.t div.t {
+   background: url(../images/j_crn_tr_med.png) 100% 0 no-repeat;
+}
+
+div#toolbar-box div.t div.t div.t,
+div#element-box div.section-box div.t div.t div.t {
+   background: url(../images/j_crn_tl_med.png) 0 0 no-repeat;
+}
+
+div#toolbar-box div.b,
+div#element-box div.section-box div.b {
+  background: url(../images/j_border.png) 0 100% repeat-x;
+}
+
+div#toolbar-box div.b div.b,
+div#element-box div.section-box div.b div.b {
+   background: url(../images/j_crn_br_med.png) 100% 0 no-repeat;
+}
+
+div#toolbar-box div.b div.b div.b,
+div#element-box div.section-box div.b div.b div.b {
+   background: url(../images/j_crn_bl_med.png) 0 0 no-repeat;
+}
+
+div#element-box div.t {
+  background: url(../images/j_border.png) 0 0 repeat-x;
+}
+
+div#element-box div.t div.t {
+   background: url(../images/j_crn_tr_light.png) 100% 0 no-repeat;
+}
+
+div#element-box div.t div.t div.t {
+   background: url(../images/j_crn_tl_light.png) 0 0 no-repeat;
+}
+
+div#element-box div.b {
+  background: url(../images/j_border.png) 0 100% repeat-x;
+}
+
+div#element-box div.b div.b {
+   background: url(../images/j_crn_br_light.png) 100% 0 no-repeat;
+}
+
+div#element-box div.b div.b div.b {
+   background: url(../images/j_crn_bl_light.png) 0 0 no-repeat;
+}

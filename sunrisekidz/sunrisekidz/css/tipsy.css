@@ -1,0 +1,7 @@
+.tipsy { padding: 5px; font-size: 13px; opacity: 0.8; filter: alpha(opacity=80); background-repeat: no-repeat;  background-image: url(../images/images_webmoi/tipsy.gif); }
+  .tipsy-inner { padding: 5px 8px 4px 8px; background-color: #ffef00; color:#008300; max-width: 450px; text-align: center; text-shadow:0 1px 1px #555; }
+  .tipsy-inner { -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; }
+  .tipsy-north { background-position: top center; }
+  .tipsy-south { background-position: bottom center; }
+  .tipsy-east { background-position: right center; }
+  .tipsy-west { background-position: left center; }
